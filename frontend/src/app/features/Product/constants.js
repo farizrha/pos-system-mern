@@ -1,0 +1,3 @@
+export const START_FETCHING_PRODUCT = "features/Product/START_FETCHING_PRODUCT";
+export const ERROR_FETCHING_PRODUCT = "features/Product/ERROR_FETCHING_PRODUCT";
+export const SUCCESS_FETCHING_PRODUCT = "features/Product/SUCCESS_FETCHING_PRODUCT";

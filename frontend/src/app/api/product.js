@@ -1,6 +1,5 @@
-import axios from 'axios'
-import config from '../../config'
+import axios from "axios";
 
 export const getProduct = async () => {
-    return await axios.get(`${config.api_host}/api/products`)
-}
+  return await axios.get(`${process.env.REACT_APP_DB_HOST}:${process.env.REACT_APP_DB_PORT}/api/products`);
+};
